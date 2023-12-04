@@ -9,3 +9,22 @@ Thanks to:
 7. Gege for Xenotype Exporter
 8. Ludeon for Rimworld!
 9. RuPaul for Rimpy
+
+And, for this mod in particular:
+
+1. the VE team for Vanilla Expanded Framework
+2. Brainzz for making the harmony library availiable to Rimworld
+3. The wonderful Rimworld Modding community
+4. Jaxe for Publisher Plus, and Epiguru for updateing Publisher Plus past 1.4
+5. Sincere for Gif Uploader
+6. m00nl1ght for isolateing the log publisher from HugsLib
+7. Gege for both Translation Assistant Tool and Custom Xenotype Exporter Tool
+8. Imranfish for XML Extensions
+9. kenx00x for Xenotype And Ideology Buttons TitleScreen
+10. void for Character Editor
+11. EdB for EdB Prepare Carefully
+12. Epicguru (James B) for What's That Mod
+13. Smash Phil for Xml Patch Helper
+
+Also, an extra big thank you to Discord user erdelf (steam: https://steamcommunity.com/id/erdelf/ ). There was a major, major error, that was caused by a very subtle misclick. I could never have found it, but he did, (mostly because rimworld seemed to be fine with "this shit" except for that one error, and he just had to see why! Still not sure if I should take his wording as an insult or compliment... so, I'll take it as a compliment) (when someone asked if he read it, he said, to quite him, "this shit passes xml validation.. so I had to")
+

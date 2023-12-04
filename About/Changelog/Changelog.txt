@@ -1,1 +1,4 @@
-put changelog text here
+1.0.0
+Uploaded
+No texture folder as, lets be honest, this mod will probally never add items. At most, some words and such if I add my own features. On the off chance I do need textures, I can re-make said folder
+Same with the soft-compatibility folder

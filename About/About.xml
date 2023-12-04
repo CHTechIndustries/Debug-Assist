@@ -1,21 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Debug Order Maintainer and Dev Assister</name>
+	<name>Dev Assistant and Orderer</name>
 	
-	<packageId>mod.order</packageId>
+	<packageId>TdT.devOrder</packageId>
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
+	<url>https://steamcommunity.com/id/CTH2004/myworkshopfiles/?appid=294100</url>
+	<modVersion>1.0.0</modVersion>
 	<author>CTH2004</author>
 	<description>A mod to put helpful publishing/ debuging mods, and ensure desired load order</description>
 	<modDependencies>
 <!-- Base Game -->
-	<!-- Main Game -->
-		<li>
-			<packageId>ludeon.rimworld</packageId>
-			<displayName>Core</displayName>
-		</li>
-
 	<!-- DLC's. Delete the requirments for DLC's you don't own -->
 		<li>
 			<packageId>ludeon.rimworld.royalty</packageId>
@@ -89,13 +85,13 @@
 			<packageId>smashphil.xmlpatchhelper</packageId>
 			<displayName>Xml Patch Helper</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2810681278</steamWorkshopUrl>
-		</li>https://steamcommunity.com/sharedfiles/filedetails/?id=2574315206
+		</li>
 
 	<!-- this mod assists with the creation of translations (they say). I don't know how to do that yet, but definitly worth having in the mod creating list! Just in case you know the translation for one small part of your mod -->
 		<li>
 			<packageId>gege.translationassistanttool</packageId>
 			<displayName>Translation Assistant Tool</displayName>
-			<steamWorkshopUrl>hhttps://steamcommunity.com/sharedfiles/filedetails/?id=3014310560</steamWorkshopUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3014310560</steamWorkshopUrl>
 		</li>
 <!-- note -->
 
@@ -116,6 +112,12 @@
 
 <!-- Hard requirment as I use these for debugging (so, part of "Dev assistance". If you don't want it, just delete it from the about file -->
 	<!-- Prepare Carefully lets you easily start with anything. So, you could spawn in a pawn with your custom prosthetics, to make sure it works properly, without needing to do it in-game. While not that major for implants (as God Mode lets you add hediffs), for more complex things, this almost a necesisity imo -->
+		<li>
+			<packageId>edb.preparecarefully</packageId>
+			<displayName>EdB Prepare Carefully</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2810681278</steamWorkshopUrl>
+		</li>
+	<!-- Character Editor is even more powerful than Prepare carefully. However, it can be a bit counter-intuitive, so I only use it for specific tests. But, when used, it's very, very useful! It is known in some circles to be error-prone, but i've yet to see any true issues from it! -->
 		<li>
 			<packageId>edb.preparecarefully</packageId>
 			<displayName>EdB Prepare Carefully</displayName>

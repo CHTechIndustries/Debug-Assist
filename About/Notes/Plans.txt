@@ -1,0 +1,1 @@
+1. see if I can make a config that will allow people to add requirments and load order changes without editing the about file. Perhaps even disable requirments? (Doubt that's possible)

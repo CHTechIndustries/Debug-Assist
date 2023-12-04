@@ -1,49 +1,161 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>RimworldModTemplate</name>
-	<author>The Dynamic Trio, CTH2004</author>
-	<packageId>TdT.modID</packageId>
-	<url>https://github.com/Dynamic-Trio/Rimworld-Mod-Template</url>
-	<modVersion>1.0.2</modVersion>
+	<name>Debug Order Maintainer and Dev Assister</name>
+	
+	<packageId>mod.order</packageId>
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
-	<description>Put mod Description Here
-
-~~~Frequently asked questions. The bellow ones are used in almost all the mods, so they are included
-FAQ
-Q: CE Compatible?
-A: Uh... sure. There might be "unintented features" that we can't guarentee to fix, but you do you and all!
-
-</description>
-
+	<author>CTH2004</author>
+	<description>A mod to put helpful publishing/ debuging mods, and ensure desired load order</description>
 	<modDependencies>
+<!-- Base Game -->
+	<!-- Main Game -->
 		<li>
-			<packageId>Ludeon.RimWorld.Biotech</packageId>
-			<displayName>Biotech</displayName>
+			<packageId>ludeon.rimworld</packageId>
+			<displayName>Core</displayName>
+		</li>
+
+	<!-- DLC's. Delete the requirments for DLC's you don't own -->
+		<li>
+			<packageId>ludeon.rimworld.royalty</packageId>
+			<displayName>Royalty [Official DLC]</displayName>
 		</li>
 		<li>
 			<packageId>ludeon.rimworld.ideology</packageId>
-			<displayName>Ideology</displayName>
+			<displayName>Ideology [Official DLC]</displayName>
 		</li>
 		<li>
-			<packageId>ludeon.rimworld.royalty</packageId>
-			<displayName>Royalty</displayName>
+			<packageId>ludeon.rimworld.biotech</packageId>
+			<displayName>Biotech [Official DLC]</displayName>
 		</li>
 
+<!-- Almost always used cores/ dependencies -->
+	<!-- Harmony. Allows acess to the "harmony" library, a collection of very useful code. Even if you don't use it, most mods do so it's likley one of your dependencies does -->
 		<li>
-			<packageId>tdt.core</packageId>
-			<displayName>The Dynamic Trio Core</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3097014712</steamWorkshopUrl>
-			<downloadUrl>https://github.com/Dynamic-Trio/TheDynamicTrio-Rimworld-Core</downloadUrl>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	<!-- Vanilla Expanded Framework, which adds lots of useful features. There's a reason many mods use it-->
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steamWorkshopUrl>
+			<downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+		</li>
+
+<!-- Very Useful Mods that I use as dependencies (if you don't like them, delete as needed) -->
+	<!-- XML Extentions: This mod makes XML much more powerful, being able to make settings, do much more intricate patches, and more! With this, you can use pure XML to write mods that have features that normally need lots of C#. Even if you are good with C#, XML can often have benifits over C#, so you can do things that did use C#, but more preformance freindly (of course, the inverse is true too. Some things are better done via C#, even if XML can do it)  -->
+		<li>
+			<packageId>imranfish.xmlextensions</packageId>
+			<displayName>XML Extensions</displayName>
+			<downloadUrl>https://github.com/15adhami/XmlExtensions/releases</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2574315206</steamWorkshopUrl>
+		</li>
+<!--Dev assistance (Mods to help with debugging/ writing your mods) -->
+
+	<!-- What's that Mod will show you what mod something is from, allowing you to make sure that something you added is there, and not triggering another mod, along with differentiateing between other mods that you are testing for compatibility, and your mods, content-->
+		<li>
+			<packageId>co.uk.epicguru.whatsthatmod</packageId>
+			<displayName>What's That Mod</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2258431182</steamWorkshopUrl>
+		</li>
+
+	<!-- Easily uploads logs. While typically for bug reports, could be used to put the errors onto an area larger than rimworlds error panel, and sharable so you can ask for advice. Also, as it's used a lot, checking for compat with it is almost necessarily-->
+		<li>
+			<packageId>m00nl1ght.unofficialupdates.hugslogpublisher</packageId>
+			<displayName>Log Publisher from HugsLib</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404</steamWorkshopUrl>
+		</li>
+
+	<!-- This mod lets you easily export xenotypes you make, so you don't have to write them in XML-->
+		<li>
+			<packageId>gege.customxenotypeexportertool</packageId>
+			<displayName>Custom Xenotype Exporter Tool</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3008208560</steamWorkshopUrl>
+		</li>
+
+	<!-- This provides 2 buttons for easily making xenotypes and ideologies (respectivly) on the start page. Great in conjunction with the exporter tool!-->
+		<li>
+			<packageId>kenx00x.xenotypeandideologybuttonstitlescreen</packageId>
+			<displayName>Xenotype And Ideology Buttons TitleScreen</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2973951983</steamWorkshopUrl>
+		</li>
+
+	<!-- This adds multiple features for debug, but the most notable of them is a button that makes writing patches so, so much easier!-->
+		<li>
+			<packageId>smashphil.xmlpatchhelper</packageId>
+			<displayName>Xml Patch Helper</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2810681278</steamWorkshopUrl>
+		</li>https://steamcommunity.com/sharedfiles/filedetails/?id=2574315206
+
+	<!-- this mod assists with the creation of translations (they say). I don't know how to do that yet, but definitly worth having in the mod creating list! Just in case you know the translation for one small part of your mod -->
+		<li>
+			<packageId>gege.translationassistanttool</packageId>
+			<displayName>Translation Assistant Tool</displayName>
+			<steamWorkshopUrl>hhttps://steamcommunity.com/sharedfiles/filedetails/?id=3014310560</steamWorkshopUrl>
+		</li>
+<!-- note -->
+
+<!--Publishing Assistance (helps with publishing) -->
+	<!-- This provides the ability to controll more with your upload, even telling it to ignore files/ folders! It defaults to ignoring .git from github, but it can have any folders! I, for instance, have a notes folder. The first one is for putting info to help other modders use mine, but there is a folder called "private notes". In there are drafts of the steam description so I can easily re-upload it if it gets deleted, as well as reminders and just idea jots. I don't want others to see that, so about/notes/private notes is in the "exclude" area!  -->
+		<li>
+			<packageId>jaxe.publisherplus.v14</packageId>
+			<displayName>PublisherPlus for v1.4</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2871749116</steamWorkshopUrl>
+		</li>
+
+	<!-- This mod makes it so Rimworld can upload .gifs as the preview image, including animated gifs! The way it works is quite neat, I asked about it, and the answer was really cool. So, here's a link to it: https://steamcommunity.com/sharedfiles/filedetails/?id=3102725476&tscn=1701696647 -->
+		<li>
+			<packageId>sincere.gifuploader</packageId>
+			<displayName>Gif Uploader</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3102725476</steamWorkshopUrl>
+		</li>
+
+<!-- Hard requirment as I use these for debugging (so, part of "Dev assistance". If you don't want it, just delete it from the about file -->
+	<!-- Prepare Carefully lets you easily start with anything. So, you could spawn in a pawn with your custom prosthetics, to make sure it works properly, without needing to do it in-game. While not that major for implants (as God Mode lets you add hediffs), for more complex things, this almost a necesisity imo -->
+		<li>
+			<packageId>edb.preparecarefully</packageId>
+			<displayName>EdB Prepare Carefully</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2810681278</steamWorkshopUrl>
 		</li>
 	</modDependencies>
-	<loadAfter>
-		<li>tdt.core</li>
+	<loadAfter> <!-- If the reason is semi-counter-intuitive/ seemingly random/ against that mods load order, will explain. Also categorized orders -->
+<!-- Pre-rimworld loading mods (2 mods require being before rimworld. So, I made a category for them) -->
+		<li>brrainz.harmony</li>
+
+<!-- Base Game/ DLC's -->
+		<li>ludeon.rimworld</li>
+		<li>ludeon.rimworld.royalty</li>
+		<li>ludeon.rimworld.ideology</li>
+		<li>ludeon.rimworld.biotech</li>
+<!-- Cores/ Frameworks -->
+		<li>imranfish.xmlextensions</li>
+		<li>oskarpotocki.vanillafactionsexpanded.core</li>
+		
+<!-- Mods used to assist debuging/ writing mods -->
+		<li>m00nl1ght.unofficialupdates.hugslogpublisher</li>
+		<li>gege.customxenotypeexportertool</li>
+		<li>kenx00x.xenotypeandideologybuttonstitlescreen</li>
+		<li>co.uk.epicguru.whatsthatmod</li>			<!-- The steam page says it should be loaded as far down as possible, but being higher up doesn't seem to cause too many issues -->
+		<li>edb.preparecarefully</li> 				<!-- Same as above, even though the steam page says it should be lower down, it has no issues from what I can tell -->
+		<li>void.charactereditor</li>
+		<li>gege.translationassistanttool</li>
+<!-- Mods to assist publishing. Put above to seperate them from your mods -->
+		<li>jaxe.publisherplus.v14</li>
+		<li>sincere.gifuploader</li>
+
+<!-- Common Frameworks, which means they need to be higher up. However, as less mods use them, they aren't a hard requirment. -->
+		
 	</loadAfter>
 	<loadBefore>
-		<li>co.uk.epicguru.whatsthatmod</li>
-		<li>edb.preparecarefully</li>
+<!-- This mod is used to store what you exported via Custom Xenotype Exporter Tool. But, while testing, you might keep exports in this folder rather than your own mod. However, it also exports patches, which means it needs to be lower than all mods you are patching. As the goal is to have all mods that aren't yours above here, putting it bellow will assist in that. I also recomend making your mods enforce this mod being lower than them, so if you patch your own xenos they will apply. I actually applied a "load as far down as possible" rule in mine! -->	
+
+		<li>gege.exportedxenotypestoragemodfolder</li> 
+<!-- This mod deals with patches, which you want as low down as possible. You want them bellow the mod you are patching, and if not in your mod, bellow them. So, same as above with "exported xenotype storage" -->
+		<li>smashphil.xmlpatchhelper</li>
 	</loadBefore>
 	<incompatibleWith>
 	</incompatibleWith>

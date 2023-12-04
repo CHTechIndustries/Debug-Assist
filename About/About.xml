@@ -119,9 +119,9 @@
 		</li>
 	<!-- Character Editor is even more powerful than Prepare carefully. However, it can be a bit counter-intuitive, so I only use it for specific tests. But, when used, it's very, very useful! It is known in some circles to be error-prone, but i've yet to see any true issues from it! -->
 		<li>
-			<packageId>edb.preparecarefully</packageId>
-			<displayName>EdB Prepare Carefully</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2810681278</steamWorkshopUrl>
+			<packageId>void.charactereditor</packageId>
+			<displayName>Character Editor</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1874644848</steamWorkshopUrl>
 		</li>
 	</modDependencies>
 	<loadAfter> <!-- If the reason is semi-counter-intuitive/ seemingly random/ against that mods load order, will explain. Also categorized orders -->

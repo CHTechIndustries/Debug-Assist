@@ -74,6 +74,13 @@ This mod is designed with inate compatibility for the "Rimworld-Mod-Template" mo
 			<displayName>Custom Xenotype Exporter Tool</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3008208560</steamWorkshopUrl>
 		</li>
+		<li>
+			<packageId>gege.exportedxenotypestoragemodfolder</packageId>		<!-- This is the Auto-Generated Folder. You will have an error untill your first export-->
+			<displayName>ExportedXenotypeStorageModFolder</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3008208560</steamWorkshopUrl>
+		</li>
+
+
 
 	<!-- This provides 2 buttons for easily making xenotypes and ideologies (respectivly) on the start page. Great in conjunction with the exporter tool!-->
 		<li>

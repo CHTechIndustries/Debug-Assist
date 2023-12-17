@@ -2,3 +2,7 @@
 Uploaded
 No texture folder as, lets be honest, this mod will probally never add items. At most, some words and such if I add my own features. On the off chance I do need textures, I can re-make said folder
 Same with the soft-compatibility folder
+
+1.0.1
+Add "gege.exportedxenotypestoragemodfolder" as a requirment (with a warning)
+Changed link to the wiki for this mod (which I still need to make), instead of the mod this one has inate compat with

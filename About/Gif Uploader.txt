@@ -1,0 +1,8 @@
+The gif uploader mod is no longer there. If it returns, here was the basic info
+
+	<!-- This mod makes it so Rimworld can upload .gifs as the preview image, including animated gifs! The way it works is quite neat, I asked about it, and the answer was really cool. So, here's a link to it: https://steamcommunity.com/sharedfiles/filedetails/?id=3102725476&tscn=1701696647 -->
+		<li>
+			<packageId>sincere.gifuploader</packageId>
+			<displayName>Gif Uploader</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3102725476</steamWorkshopUrl>
+		</li>

@@ -112,12 +112,7 @@ This mod is designed with inate compatibility for the "Rimworld-Mod-Template" mo
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2871749116</steamWorkshopUrl>
 		</li>
 
-	<!-- This mod makes it so Rimworld can upload .gifs as the preview image, including animated gifs! The way it works is quite neat, I asked about it, and the answer was really cool. So, here's a link to it: https://steamcommunity.com/sharedfiles/filedetails/?id=3102725476&tscn=1701696647 -->
-		<li>
-			<packageId>sincere.gifuploader</packageId>
-			<displayName>Gif Uploader</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3102725476</steamWorkshopUrl>
-		</li>
+
 
 <!-- Hard requirment as I use these for debugging (so, part of "Dev assistance". If you don't want it, just delete it from the about file -->
 	<!-- Prepare Carefully lets you easily start with anything. So, you could spawn in a pawn with your custom prosthetics, to make sure it works properly, without needing to do it in-game. While not that major for implants (as God Mode lets you add hediffs), for more complex things, this almost a necesisity imo -->

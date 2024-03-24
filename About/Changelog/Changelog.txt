@@ -6,3 +6,7 @@ Same with the soft-compatibility folder
 1.0.1
 Add "gege.exportedxenotypestoragemodfolder" as a requirment (with a warning)
 Changed link to the wiki for this mod (which I still need to make), instead of the mod this one has inate compat with
+
+1.1.0
+Change ID's
+Update mod to match other ID changes

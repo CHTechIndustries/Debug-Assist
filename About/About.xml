@@ -5,6 +5,7 @@
 	<packageId>CHTech.devOrder</packageId>
 	<supportedVersions>
 		<li>1.4</li>
+		<li>1.5</li>
 	</supportedVersions>
 	<url>https://github.com/Dynamic-Trio/Debug-Assist/wiki</url>
 	<modVersion>1.0.2</modVersion>

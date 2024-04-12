@@ -124,18 +124,32 @@ This mod is designed with inate compatibility for the "Rimworld-Mod-Template" mo
 
 <!-- Hard requirment as I use these for debugging (so, part of "Dev assistance". If you don't want it, just delete it from the about file -->
 	<!-- Prepare Carefully lets you easily start with anything. So, you could spawn in a pawn with your custom prosthetics, to make sure it works properly, without needing to do it in-game. While not that major for implants (as God Mode lets you add hediffs), for more complex things, this almost a necesisity imo -->
-		<li>
+	
+	<!-- outdated, temporarilly disabled	<li>
 			<packageId>edb.preparecarefully</packageId>
 			<displayName>EdB Prepare Carefully</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2810681278</steamWorkshopUrl>
 		</li>
+	-->
 	<!-- Character Editor is even more powerful than Prepare carefully. However, it can be a bit counter-intuitive, so I only use it for specific tests. But, when used, it's very, very useful! It is known in some circles to be error-prone, but i've yet to see any true issues from it! -->
+		
+	<!-- outdated, temporarilly disabled
 		<li>
 			<packageId>void.charactereditor</packageId>
 			<displayName>Character Editor</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1874644848</steamWorkshopUrl>
 		</li>
+	-->
+	
+		<!-- like prepare carefully, but already updated to 1.5. Will definitly go into load order, might keep as requirment, might even replace prepare carefully -->
+		<li>
+			<packageId>isorex.pawneditor</packageId>
+			<displayName>Pawn Editor</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3219801790</steamWorkshopUrl>
+		</li>
 	</modDependencies>
+	
+	
 	<loadAfter> <!-- If the reason is semi-counter-intuitive/ seemingly random/ against that mods load order, will explain. Also categorized orders -->
 <!-- Pre-rimworld loading mods (2 mods require being before rimworld. So, I made a category for them) -->
 		<li>brrainz.harmony</li>
@@ -157,6 +171,7 @@ This mod is designed with inate compatibility for the "Rimworld-Mod-Template" mo
 		<li>edb.preparecarefully</li> 				<!-- Same as above, even though the steam page says it should be lower down, it has no issues from what I can tell -->
 		<li>void.charactereditor</li>
 		<li>gege.translationassistanttool</li>
+		<li>isorex.pawneditor</li>
 <!-- Mods to assist publishing. Put above to seperate them from your mods -->
 		<li>jaxe.publisherplus.v14</li>
 		<li>sincere.gifuploader</li>

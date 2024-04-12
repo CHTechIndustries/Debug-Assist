@@ -107,10 +107,17 @@ This mod is designed with inate compatibility for the "Rimworld-Mod-Template" mo
 
 <!--Publishing Assistance (helps with publishing) -->
 	<!-- This provides the ability to controll more with your upload, even telling it to ignore files/ folders! It defaults to ignoring .git from github, but it can have any folders! I, for instance, have a notes folder. The first one is for putting info to help other modders use mine, but there is a folder called "private notes". In there are drafts of the steam description so I can easily re-upload it if it gets deleted, as well as reminders and just idea jots. I don't want others to see that, so about/notes/private notes is in the "exclude" area!  -->
-		<li>
+		<!-- <li>
 			<packageId>jaxe.publisherplus.v14</packageId>
 			<displayName>PublisherPlus for v1.4</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2871749116</steamWorkshopUrl>
+		</li> -->
+		
+		<!-- same as above, only already at 1.5. keeping both in, so I can change between if necessary -->
+		<li>
+			<packageId>nightmare.jaxe.publisherplusmultiversionfork</packageId>
+			<displayName>PublisherPlus</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3183156228</steamWorkshopUrl>
 		</li>
 
 

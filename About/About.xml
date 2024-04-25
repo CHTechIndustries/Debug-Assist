@@ -8,7 +8,7 @@
 		<li>1.5</li>
 	</supportedVersions>
 	<url>https://github.com/Dynamic-Trio/Debug-Assist/wiki</url>
-	<modVersion>1.0.2</modVersion>
+	<modVersion>1.0.3</modVersion>
 	<author>CTH2004</author>
 	<description>A mod to put helpful publishing/ debuging mods, and ensure desired load order
 
@@ -63,11 +63,12 @@ This mod is designed with inate compatibility for the "Rimworld-Mod-Template" mo
 		</li>
 
 	<!-- Easily uploads logs. While typically for bug reports, could be used to put the errors onto an area larger than rimworlds error panel, and sharable so you can ask for advice. Also, as it's used a lot, checking for compat with it is almost necessarily-->
-		<li>
+	<!--	<li>
 			<packageId>m00nl1ght.unofficialupdates.hugslogpublisher</packageId>
 			<displayName>Log Publisher from HugsLib</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404</steamWorkshopUrl>
 		</li>
+	use this? hugs lib? ignore for this mod? -->
 
 	<!-- This mod lets you easily export xenotypes you make, so you don't have to write them in XML-->
 		<li>
